@@ -1,23 +1,37 @@
-p {
-    color: yellow;
-    text-align: justify;
-    font-size: 32px;
-}
-
 h1 {
-    text-align: center;
-    font-weight: bold;
-    background-color: aqua;
-}
-
-h2 {
-    text-align: center;
-    font-style: italic;
+text-align: center;
+color: purple;
+font-weight: bold;
+font-style: italic;
 }
 
 .imagemcarro {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100px;
+    max-width: 200px;
+    border-radius: 20px;
+    border-style: inset;
+    border-width: 20px;
+}
+
+.titulos {
+    background-color: aqua;
+    border-radius: 50px;
+    border-width: 10px;
+    border-color: blueviolet;
+    border-style: dotted;
+}
+
+.texto {
+    background-color: blueviolet;
+    border-radius: 50px;
+    border-width: 10px;
+    border-color: aqua;
+    border-style: dotted;
+    color: aliceblue;
+}
+
+.listas {
+    background-color: cornflowerblue;
+    vertical-align: top;
+    display: inline-block;
+    padding-right: 50px;
 }
